@@ -1,0 +1,132 @@
+Requerimientos 
+1.	El programa debe registrar los contactos del directorio interno de la empresa
+2.	El programa debe buscar los contactos de los empleados en el directorio interno 
+3.	El programa debe eliminar los contactos dentro de la empresa 
+4.	El Sistema debe permitir al usuario registrar un contacto nuevo  
+5.	El Sistema debe permitir al usuario, buscar un contacto por nombre y correo 
+6.	El sistema debe registrar al mínimo de un rango de 1 a 2 nombres 
+7.	El sistema debe registrar un rango mínimo de 1 a 2 apellidos
+8.	El Sistema debe permitir al usuario listar los contactos registrados
+9.	El Sistema debe permitir al usuario eliminar un contacto existente 
+10.	El programa deber registrar el nombre del contacto
+11.	El programa debe registrar el correo electrónico del contacto
+12.	El programa debe registrar el cargo del contacto dentro de la empresa 
+13.	El programa debe registrar el número de teléfono del contacto 
+14.	El nombre y cargo del contacto deben ser de tipo String 
+15.	El número del teléfono del contacto debe ser de tipo entero 
+16.	El sistema debe permitir al usuario actualizar información del contacto cuando él lo requiera
+17.	El sistema debe confirmar mediante una notificación al correo electrónico después de registrarse
+18.	El sistema no debe permitir al usuario registrarse con el mismo correo electrónico después de haberse registrado una sola vez 
+19.	El sistema debe permitir al usuario enviar un mensaje si no se encuentra un contacto dentro de la lista del directorio 
+20.	El sistema debe validar a que no se repita el mismo correo electrónico 
+21.	El sistema no puede eliminar un contacto que no se ha registrado o sea inexistente 
+22.	El Sistema debe guardar todos los datos de los contactos dentro de un archivo local para ejecutores (contactos.csv)
+23.	El sistema debe responder de forma ágil y rápida 
+24.	El sistema debe permitir al usuario hacer búsquedas de contactos
+25.	El sistema debe mostrar los listados de los contactos 
+26.	El sistema puede ser adaptable a cualquier dispositivo móvil 
+27.	El sistema debe cumplir las normas de seguridad y privatización de datos
+28.	El sistema debe ser intuitivo y de buen uso 
+29.	El sistema debe cumplir con una interfaz clara y de mucha facilidad 
+30.	El sistema debe cumplir con pistas de menús y mensajes informativos 
+31.	El sistema será adaptable para Windows, Mac y Linux 
+32.	El sistema debe actualizarse cada 2 o 3 meses 
+33.	El sistema incluirá derechos de reservas y copyright 
+Clasificación de requerimientos 
+
+Requerimientos Funcionales 
+1.	El programa debe registrar los contactos del directorio interno de la empresa
+2.	El programa debe buscar los contactos de los empleados en el directorio interno 
+3.	El programa debe eliminar los contactos dentro de la empresa 
+4.	El Sistema debe permitir al usuario registrar un contacto nuevo  
+5.	El Sistema debe permitir al usuario, buscar un contacto por nombre y correo 
+6.	El sistema debe registrar al mínimo de un rango de 1 a 2 nombres 
+7.	El sistema debe registrar un rango mínimo de 1 a 2 apellidos
+8.	El Sistema debe permitir al usuario listar los contactos registrados
+9.	El Sistema debe permitir al usuario eliminar un contacto existente 
+10.	El programa deber registrar el nombre del contacto
+11.	El programa debe registrar el correo electrónico del contacto
+12.	El programa debe registrar el cargo del contacto dentro de la empresa 
+13.	El programa debe registrar el número de teléfono del contacto 
+14.	El nombre y cargo del contacto deben ser de tipo String 
+15.	El número del teléfono del contacto debe ser de tipo entero 
+16.	El sistema debe permitir al usuario actualizar información del contacto cuando él lo requiera
+17.	El sistema debe confirmar mediante una notificación al correo electrónico después de registrarse
+18.	El sistema no debe permitir al usuario registrarse con el mismo correo electrónico después de haberse registrado una sola vez 
+19.	El sistema debe permitir al usuario enviar un mensaje si no se encuentra un contacto dentro de la lista del directorio 
+20.	El sistema debe validar a que no se repita el mismo correo electrónico 
+21.	El sistema no puede eliminar un contacto que no se ha registrado o sea inexistente 
+22.	El Sistema debe guardar todos los datos de los contactos dentro de un archivo local para ejecutores (contactos.csv)
+23.	El sistema es adaptable para computadoras o portátiles adaptables para Windows, Mac y Linux 
+
+
+
+Requerimientos No funcionales 
+
+•	El sistema debe responder de forma ágil y rápida 
+•	El sistema debe mostrar los listados de los contactos 
+•	El sistema puede ser adaptable a cualquier dispositivo móvil 
+•	El sistema debe cumplir las normas de seguridad y privatización de datos
+•	El sistema debe ser intuitivo y de buen uso 
+•	El sistema debe cumplir con una interfaz clara y de mucha facilidad 
+•	El sistema debe cumplir con pistas de menús y mensajes informativos 
+•	El sistema debe actualizarse cada 2 o 3 meses 
+•	El sistema incluirá derechos de reservas y copyright 
+
+Levantamiento de requerimientos 
+Conectme: Necesitamos crear una empresa que sea capaz de Buscar, registrar y eliminar contactos
+Cliente: Con que motivo se creará esa aplicación y para quienes van dirigidas 
+Conectme: Para registrar, Buscar y Eliminar contactos 
+1.	El programa debe registrar los contactos del directorio interno de la empresa
+2.	El programa debe buscar los contactos de los empleados en el directorio interno 
+3.	El programa debe eliminar los contactos dentro de la empresa 
+Cliente: Que tanto debe tener los contactos dentro de ese listado
+Conectme: El contacto al registrarse debe tener el Nombre, El teléfono, el correo electrónico y el cargo que el empleado tiene en la empresa 
+Cliente: Tendrá más de dos nombres- SI, y Dos apellidos: Si- incluirá genero de la persona: NO Familia: NO, Correo Electrónico: SI, Cargo: Obligatoriamente 
+1.	El sistema debe registrar al mínimo de un rango de 1 a 2 nombres 
+2.	El sistema debe registrar un rango mínimo de 1 a 2 apellidos
+3.	El programa deber registrar el nombre del contacto
+4.	El programa debe registrar el correo electrónico del contacto
+5.	El programa debe registrar el cargo del contacto dentro de la empresa 
+6.	El programa debe registrar el número de teléfono del contacto 
+Cliente: Que pasa si se registran con el mismo correo: 
+ContactMe: No se puede y se enviará un mensaje de autenticación:
+1.	El sistema debe validar a que no se repita el mismo correo electrónico 
+2.	El sistema no puede eliminar un contacto que no se ha registrado o sea inexistente 
+Cliente: Y se el usuario o empleado debe actualizar la información
+ContactMe: Si tendrá la opción de actualizar su información 
+1.	El sistema debe permitir al usuario actualizar información del contacto cuando él lo requiera
+ContactMe: También el programa debe buscar ya sea por Nombre o por el correo:
+Cliente: Nombre: Obligatoriamente, Correo: Obligatoriamente. 
+1.	El Sistema debe permitir al usuario, buscar un contacto por nombre y correo 
+ContactMe: También debe listar los contactos 
+Cliente: ¿Pero si no hay un contacto existente entonces que se hace?
+ContactMe: Se le enviará un mensaje que el contacto no existe o no esta registrado en el listado 
+1.	El sistema debe permitir al usuario enviar un mensaje si no se encuentra un contacto dentro de la lista del directorio 
+2.	El sistema no puede eliminar un contacto que no se ha registrado o sea inexistente 
+Cliente: El usuario al final del registro enviará una notificación de registro completado
+1.	El sistema debe confirmar mediante una notificación al correo electrónico después de registrarse
+ContactMe: El sistema debe permitir al Usuario, Buscar Contacto por Nombre y Correo, Listar los contactos y Eliminar los contactos 
+1.	El Sistema debe permitir al usuario registrar un contacto nuevo  
+2.	El Sistema debe permitir al usuario, buscar un contacto por nombre y correo 
+3.	El sistema debe registrar al mínimo de un rango de 1 a 2 nombres 
+4.	El sistema debe registrar un rango mínimo de 1 a 2 apellidos
+5.	El Sistema debe permitir al usuario listar los contactos registrados
+6.	El Sistema debe permitir al usuario eliminar un contacto existente 
+ContactMe: Los contactos deben guardarse en un archivo local, para información de ejecutores
+1.	El Sistema debe guardar todos los datos de los contactos dentro de un archivo local para ejecutores (contactos.csv)
+ContactMe: La interfaz debe ser Intuitiva y de fácil Uso…
+Cliente: Puede ser para dispositivos móviles: SI……También para Computadoras de ultima generación: También 
+Cliente: Debe incluir Menus numerados: SI, y mensajes informativos: También 
+•	El sistema debe ser intuitivo y de buen uso 
+•	El sistema debe cumplir con una interfaz clara y de mucha facilidad 
+•	El sistema debe cumplir con pistas de menús y mensajes informativos 
+•	El sistema es adaptable para computadoras o portátiles adaptables para Windows, Mac y Linux 
+•	El sistema puede ser adaptable a cualquier dispositivo móvil 
+ContactMe: el sistema debe ser rápido y si ninguna complicación en responder, sin ningún retraso 
+•	El sistema debe responder de forma ágil y rápida 
+Cliente: Tendrá privacidad de Datos: En algún futuro, incluirá copyright: Talvez pero mas adelante 
+•	El sistema incluirá derechos de reservas y copyright 
+•	El sistema debe cumplir las normas de seguridad y privatización de datos
+ContactMe: Se actualizará y se hará mantenimiento dentro de muy poco tiempo
+•	El sistema debe actualizarse cada 2 o 3 meses 
