@@ -25,5 +25,5 @@ urlpatterns = [
     path('', list_view, name='list_view'),
     path('create/', create_view, name='create_view'),
     path('update/<int:id>/', update_view, name='update_view'),
-    path('delete/<int:id>/', delete_view, name='delete_view'),
+    path('delete/<int:id>', delete_view, name='delete_view'),
 ]
